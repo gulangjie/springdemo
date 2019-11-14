@@ -16,9 +16,10 @@ public class UserController {
     public User getUser(){
         User user = new User();
         user.setName("imooc");
-        user.setAge(18);
+        user.setAge(182);
         user.setBirthday(new Date());
         user.setPassword("imooc");
+        user.setDesc("imooc的描述很gf不错");
         return user;
     }
 
