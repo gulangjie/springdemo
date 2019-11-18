@@ -62,4 +62,5 @@ public class ThymeleafController {
 
         return "redirect:/th/test";
     }
+
 }
